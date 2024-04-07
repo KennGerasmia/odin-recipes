@@ -1,0 +1,56 @@
+.outline {
+    outline: 1px black solid;
+}
+
+.outline1 {
+    outline: 1px red solid;
+}
+
+.outline2 {
+    outline: 1px green solid;
+}
+
+.outline3{
+    outline: 1px blue solid;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    outline: 3px orange dotted;
+}
+
+.header-title-container {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* padding-left: 0px; */
+    /* padding-right: 100px; */
+}
+
+.header-title {    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    font-size: 54px;
+}
+
+.recipe-section-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
