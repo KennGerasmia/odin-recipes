@@ -1,4 +1,4 @@
-.outline {
+/* .outline {
     outline: 1px black solid;
 }
 
@@ -12,7 +12,7 @@
 
 .outline3{
     outline: 1px blue solid;
-}
+} */
 
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 .header-title-container, .recipe-section-container, .footer-section-container {
-    max-width: 1820px;
+    max-width: 920px;
 }
 
 .header-title-container {
@@ -89,7 +89,7 @@ body {
 .spacer {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -105,8 +105,7 @@ body {
     max-width: 1820px;
     display: flex;
 
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
