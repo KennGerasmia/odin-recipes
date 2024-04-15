@@ -97,14 +97,32 @@ body {
 .calltoaction-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 250px;
 
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.calltoaction-designborder-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 260px;
+    padding-left: 260px;
+
+    border-width: 4px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: aqua;
 }
 
 .coatitle, .coaparagraph {
@@ -118,6 +136,20 @@ body {
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.coabutton {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-width: 4px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
 }
 
 .footer-section-container {
