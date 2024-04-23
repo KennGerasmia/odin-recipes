@@ -28,6 +28,27 @@ body {
     max-width: 920px;
 }
 
+.header-bar-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header-bar-links-container {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .header-title-container {
     display: flex;
     justify-content: center;
@@ -110,12 +131,12 @@ body {
 .calltoaction-designborder-container {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 100px;
 
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 260px;
-    padding-left: 260px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 360px;
+    padding-left: 360px;
 
     border-width: 4px;
     border-color: white;
